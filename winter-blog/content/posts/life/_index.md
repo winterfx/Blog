@@ -1,11 +1,14 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-lastmod: {{ .Date }}
+title: "Life"
+date: 2023-06-25T15:47:05+08:00
+lastmod: 2023-06-25T15:47:05+08:00
 author: ["Winter"]
 keywords: 
+- 
 categories: # 没有分类界面可以不填写
+- 
 tags: # 标签
+- 
 description: ""
 weight:
 slug: ""
