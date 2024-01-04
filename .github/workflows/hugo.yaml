@@ -67,15 +67,11 @@ jobs:
             --minify \
             --baseURL "${{ env.BASE_URL }}/"
             ls -all
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2   
-        with:
-          path: winter-blog/public
-      - name: Deploy to GitHub Pages Repository
+      - name: Deploy public folder to GitHub Pages Repository
         run: |
           cd winter-blog/public
-          git config --global user.name "winterfx"
-          git config --global user.email "wwhontheway@gmail.com"
+          git config user.name "winterfx"
+          git config user.email "wwhontheway@gmail.com"
           git add .
           git commit -m "sync"
           git push origin main
