@@ -61,6 +61,7 @@ jobs:
         run: |
           cd winter-blog
           rm -rf public
+          git submodule add -b main https://github.com/winterfx/winterfx.github.io public
           hugo \
             --gc \
             --minify \
@@ -73,7 +74,6 @@ jobs:
       - name: Deploy to GitHub Pages repository
         run: |
           cd winter-blog
-          git submodule add -b main https://github.com/winterfx/winterfx.github.io public
           cd public && git pull --rebase origin main 
           git add .
           git commit -m "sync"
