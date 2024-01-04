@@ -74,7 +74,8 @@ jobs:
       - name: Deploy to GitHub Pages Repository
         run: |
           cd winter-blog/public
-          git checkout main
+          git config --global user.name "winterfx"
+          git config --global user.email "wwhontheway@gmail.com"
           git add .
           git commit -m "sync"
           git push origin main
