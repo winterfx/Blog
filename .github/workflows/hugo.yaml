@@ -71,10 +71,10 @@ jobs:
         uses: actions/upload-pages-artifact@v2   
         with:
           path: winter-blog/public
-      - name: Deploy to GitHub Pages repository
+      - name: Deploy to GitHub Pages Repository
         run: |
-          cd winter-blog
-          cd public && git pull --rebase origin main 
+          cd winter-blog/public
+          git checkout main
           git add .
           git commit -m "sync"
           git push origin main
