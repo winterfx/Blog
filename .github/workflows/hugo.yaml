@@ -60,12 +60,17 @@ jobs:
           HUGO_ENV: production
         run: |
           cd winter-blog
+          pwd
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ env.BASE_URL }}/"          
+            --baseURL "${{ env.BASE_URL }}/"
+            ls -all
+      - name: Print Current Directory
+        run: |
+          pwd
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v2   
         with:
           path: ./public
 
