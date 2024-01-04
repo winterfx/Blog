@@ -1,3 +1,7 @@
 [submodule "winter-blog/themes/PaperMod"]
     path = winter-blog/themes/PaperMod
     url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "winter-blog/public"]
+	path = winter-blog/public
+	url = https://github.com/winterfx/winterfx.github.io
+	branch = main
