@@ -82,3 +82,15 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
+        with:
+          repository: winterfx/winterfx.github.io
+          # Target branch
+          branch: main
+          # Source directory
+          folder: winter-blog/public
+          # Keep files from the previous deployment
+          keep_files: false
+          # Commit message
+          commit_message: Deploy the latest changes to GitHub Pages
+          # Commit user name
+          committer: GitHub Actions
