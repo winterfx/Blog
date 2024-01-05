@@ -53,6 +53,10 @@ jobs:
           git submodule update --remote --recursive 
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Setup SSH  
+        uses: webfactory/ssh-agent@v0.5.3  
+        with:  
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }} 
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
