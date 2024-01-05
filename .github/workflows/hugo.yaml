@@ -72,6 +72,8 @@ jobs:
           
       - name: Deploy public folder to GitHub Pages Repository
         run: |
+          git config --global user.name "winterfx"
+          git config --global user.email "wwhontheway@gmail.com"
           cd winter-blog/public
           git pull --rebase origin main
           git add .
