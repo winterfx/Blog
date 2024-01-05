@@ -72,10 +72,7 @@ jobs:
           
       - name: Deploy public folder to GitHub Pages Repository
         run: |
-          git config --global user.name "winterfx"
-          git config --global user.email "wwhontheway@gmail.com"
           cd winter-blog/public
-          #
           git pull --rebase https://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@github.com/winterfx/winterfx.github.io.git main  
           git add .
           git commit -m "sync"
