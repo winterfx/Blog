@@ -32,7 +32,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      BASE_URL: 'https://github.com/winterfx/winterfx.github.io'
+      BASE_URL: 'https://blog.winterio.com.cn'
       PAGE_URL: 'git@github.com:winterfx/winterfx.github.io.git'
     steps:
       - name: Setup Hugo
