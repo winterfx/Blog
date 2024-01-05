@@ -67,6 +67,7 @@ jobs:
           cd winter-blog
           rm -rf public
           mkdir public
+          cd public
           git init -b main
           git remote add origin ${{ env.PAGE_URL }}
           hugo \
