@@ -61,6 +61,9 @@ jobs:
         run: |
           cd winter-blog
           rm -rf public
+          mkdir public
+          git init -b main
+          git remote add origin https://github.com/winterfx/winterfx.github.io.git
           hugo \
             --gc \
             --minify \
@@ -70,8 +73,6 @@ jobs:
       - name: Deploy public folder to GitHub Pages Repository
         run: |
           cd winter-blog/public
-          git init -b main
-          git remote add origin https://github.com/winterfx/winterfx.github.io.git
           git pull --rebase origin main
           git add .
           git commit -m "sync"
