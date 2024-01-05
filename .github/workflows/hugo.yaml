@@ -76,6 +76,8 @@ jobs:
           
       - name: Deploy public folder to GitHub Pages Repository
         run: |
+          git config --global user.email "you@example.com"
+          git config --global user.name "Your Name"
           cd winter-blog/public
           git pull --rebase git@github.com:winterfx/winterfx.github.io.git main 
           git add .
