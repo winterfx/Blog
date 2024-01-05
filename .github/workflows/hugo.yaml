@@ -61,17 +61,18 @@ jobs:
         run: |
           cd winter-blog
           rm -rf public
-          git submodule add -b main https://github.com/winterfx/winterfx.github.io public
           hugo \
             --gc \
             --minify \
             --baseURL "${{ env.BASE_URL }}/"
             ls -all
+          
       - name: Deploy public folder to GitHub Pages Repository
         run: |
           cd winter-blog/public
-          git config user.name "winterfx"
-          git config user.email "wwhontheway@gmail.com"
+          git init -b main
+          git remote add origin https://github.com/winterfx/winterfx.github.io.git
+          git pull --rebase origin main
           git add .
           git commit -m "sync"
           git push origin main
