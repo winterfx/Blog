@@ -14,9 +14,11 @@ tags: ["tool"]
 - Goland:go开发全家桶。
 - Vscode:文本编辑器，插件丰富，动态语言首选IDE。
 ## design
-- Excalidraw:  手绘风格草图白板，可以画比较简单的系统workflow。
+- Excalidraw:手绘风格草图白板，可以画比较简单的系统workflow。
 ## note
 - Obsidian: markdown，插件，tag,双链
+## visual tools
+- Database Client JDBC:vscode插件，包括sql和nosql,支持ssh tunnel,对于在托管在云服务的数据连接，展示和操作方便。
 ## terminal
 - Warp:基于ai的终端，自动补全，ai提问等都好用，目前100%好评。
 ## AI
