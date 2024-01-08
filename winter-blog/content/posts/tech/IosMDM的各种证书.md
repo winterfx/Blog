@@ -1,7 +1,7 @@
 ---
 title: "IosMDM的各种证书"
-date: 2023-07-20T15:10:54+08:00
-lastmod: 2023-07-20T15:10:54+08:00
+date: 2023-07-20
+lastmod: 2023-07-20
 author: ["Winter"]
 keywords: 
 categories: # 没有分类界面可以不填写
