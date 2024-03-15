@@ -43,7 +43,7 @@ cover:
     我们的目的是接入微信公众号，所以你需要申请一个公众号并启用开发设置，步骤自行搜索吧。
 
 ## Architecture
-![Alt text](image.png)
+![Alt text](/img/image.png)
 
 ### key flow
 
@@ -302,9 +302,9 @@ async function processCommandText({ sessionId, question }) {
     
 ## Issues
 1. 在配置公众号的服务器设置时，如果使用laf给的地址，提交会失败，说这个地址有风险。所以我们要在laf中将它给的地址，托管到我们自己的域名(支持https)下面，所以你还需要有个域名hhh。
-    ![Alt text](image-1.png)
+    ![Alt text](/img/image-1.png)
 
-    ![Alt text](image-2.png)
+    ![Alt text](/img/image-2.png)
 
 2. 为什么公众号不能stream的方式给出答案，而是要回复1查看。
 
@@ -317,12 +317,12 @@ async function processCommandText({ sessionId, question }) {
 
 ## Demo
 
-![Alt text](image-3.png)
+![Alt text](/img/image-3.png)
 
     
-![Alt text](image-4.png)
+![Alt text](/img/image-4.png)
 
-![Alt text](image-5.png)
+![Alt text](/img/image-5.png)
 
 
 
