@@ -1,6 +1,6 @@
 ---
 title: "Tools"
-date: 2023-06-25
+date: 2023-06-25T13:43:07+08:00
 draft: false
 categories: # 没有分类界面可以不填写
 tags: ["tool"]

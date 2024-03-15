@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Architecture on Winter&#39;s Blog</title>
+    <link>https://blog.winterio.com.cn/en/tags/architecture/</link>
+    <description>Recent content in Architecture on Winter&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 08 Jan 2024 17:37:12 +0800</lastBuildDate><atom:link href="https://blog.winterio.com.cn/en/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thoughts on Using Microservice Architecture With Go</title>
+      <link>https://blog.winterio.com.cn/en/posts/tech/thoughts-on-using-microservice-architecture-with-go/</link>
+      <pubDate>Mon, 08 Jan 2024 17:37:12 +0800</pubDate>
+      
+      <guid>https://blog.winterio.com.cn/en/posts/tech/thoughts-on-using-microservice-architecture-with-go/</guid>
+      <description>Backgroud 平时工作只使用的是go作为后端语言，微服务作为系统架构，部署到azure aks，在写过几个工程之后，对架构有了一些体会，遂记录下来，也许有</description>
+    </item>
+    
+  </channel>
+</rss>

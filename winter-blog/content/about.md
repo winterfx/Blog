@@ -1,7 +1,6 @@
 ---
 title: "🙋🏻‍♂️Me"
 layout: about
-date: 2023-06-25T14:26:46+08:00
 draft: false
 ---
 

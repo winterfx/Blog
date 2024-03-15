@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>🧩 Tags on Winter&#39;s Blog</title>
+    <link>https://blog.winterio.com.cn/en/tags/</link>
+    <description>Recent content in 🧩 Tags on Winter&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 15 Mar 2024 10:55:53 +0800</lastBuildDate><atom:link href="https://blog.winterio.com.cn/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://blog.winterio.com.cn/en/tags/ai/</link>
+      <pubDate>Fri, 15 Mar 2024 10:55:53 +0800</pubDate>
+      
+      <guid>https://blog.winterio.com.cn/en/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Architecture</title>
+      <link>https://blog.winterio.com.cn/en/tags/architecture/</link>
+      <pubDate>Mon, 08 Jan 2024 17:37:12 +0800</pubDate>
+      
+      <guid>https://blog.winterio.com.cn/en/tags/architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microservice</title>
+      <link>https://blog.winterio.com.cn/en/tags/microservice/</link>
+      <pubDate>Mon, 08 Jan 2024 17:37:12 +0800</pubDate>
+      
+      <guid>https://blog.winterio.com.cn/en/tags/microservice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tool</title>
+      <link>https://blog.winterio.com.cn/en/tags/tool/</link>
+      <pubDate>Sun, 25 Jun 2023 13:43:07 +0800</pubDate>
+      
+      <guid>https://blog.winterio.com.cn/en/tags/tool/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
